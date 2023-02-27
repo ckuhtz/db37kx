@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connector_Audio_CUI")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_Audio_CUI/Connector_Audio_CUI.pretty")(options "")(descr ""))
+  (lib (name "Connector_Audio_Kycon")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_Audio_Kycon/Connector_Audio_Kycon.pretty")(options "")(descr ""))
+  (lib (name "Connector_Audio_Switchcraft")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_Audio_Switchcraft/Connector_Audio_Switchcraft.pretty")(options "")(descr ""))
+  (lib (name "Connector_Audio_Tensility")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_Audio_Tensility/Connector_Audio_Tensility.pretty")(options "")(descr ""))
+  (lib (name "Connector_COMBICON_Phoenix")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_COMBICON_Phoenix/Connector_COMBICON_Phoenix.pretty")(options "")(descr ""))
+  (lib (name "Connector_Dsub_TE")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_Dsub_TE/Connector_Dsub_TE.pretty")(options "")(descr ""))
+  (lib (name "Connector_FastOn_TE")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_FastOn_TE/Connector_FastOn_TE.pretty")(options "")(descr ""))
+  (lib (name "Connector_Modular_Assmann")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_Modular_Assmann/Connector_Modular_Assmann.pretty")(options "")(descr ""))
+  (lib (name "Connector_TerminalBlock_WAGO")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_TerminalBlock_WAGO/Connector_TerminalBlock_WAGO.pretty")(options "")(descr ""))
+)

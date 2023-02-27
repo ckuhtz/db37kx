@@ -1,0 +1,81 @@
+
+(rules PCB microhamkx3
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1120)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.0)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd-smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "/RADIO AF OUT GND" GND +12V /RS232CTS "/IF IN" "/RS-TTL OUT" "/CI-V IN" "/CI-V OUT"
+    "/FIF OUT" "/FILTER IN" "/PULL UP" "/FSW IN" "/MIC #2" "/MIC #4" "/MIC #6" "/MIC #8"
+    /MIC "/RADIO MIC IN" "/RADIO AF IN" "/RADIO AF OUT" /RS232RTS "/IF-FIF" "/FIF IN" "/FILTER OUT"
+    "/RS232 IN" "/RS232 OUT" "/IF OUT" "/CW OUT" "/FSK OUT" "/MIC #1" "/MIC #3" "/MIC #5"
+    "/MIC #7" "/MIC GND" "/RADIO MIC IN GND" "/RADIO AF IN GND" "/PA_KEY" "/RADIO_R_PASSTHRU" /PTT "unconnected-(J3B-R-PadRB)"
+    "unconnected-(J4-T-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
