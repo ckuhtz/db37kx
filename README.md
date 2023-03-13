@@ -1,4 +1,9 @@
 
+
+3/13/2023: found a defect in this design, revising.
+
+--
+
 # An adapter board for Elecraft KX2/ KX3 to connect to microHAM micro KEYER III DB37 with standard 3.5mm TRS and TRRS cables.
 
 ![alt text](https://holdmybeer.io/wp-content/uploads/2023/02/topside-768x287.png)
