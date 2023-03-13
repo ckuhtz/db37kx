@@ -8,4 +8,6 @@
   (lib (name "Connector_FastOn_TE")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_FastOn_TE/Connector_FastOn_TE.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_Modular_Assmann")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_Modular_Assmann/Connector_Modular_Assmann.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_TerminalBlock_WAGO")(type "KiCad")(uri "${KICAD_USER_LIBRARY_DIR}/Connector_TerminalBlock_WAGO/Connector_TerminalBlock_WAGO.kicad_sym")(options "")(descr ""))
+  (lib (name "Connector_Dsub_Kycon")(type "KiCad")(uri "K:/Connector_Dsub_Kycon/Connector_Dsub_Kycon.kicad_sym")(options "")(descr ""))
+  (lib (name "Spacer_Wuerth")(type "KiCad")(uri "K:/Spacer_Wuerth/Spacer_Wuerth.kicad_sym")(options "")(descr ""))
 )

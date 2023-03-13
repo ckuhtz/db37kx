@@ -278,29 +278,32 @@
         )
       )
     )
-    (symbol "Connector_Dsub_TE:5747847-6" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Connector_Dsub_Kycon:K85X-CD-37S" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 5.08 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "5747847-6" (at 5.08 -97.79 0)
+      (property "Value" "K85X-CD-37S" (at 5.08 -97.79 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Connector_Dsub_TE:CONN_5747847-6_TYC" (at 5.08 -107.95 0)
+      (property "Footprint" "Connector_Dsub_Kycon:K85X-CD-37S" (at 5.08 -109.22 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "5747847-6" (at 5.08 -110.49 0)
+      (property "Datasheet" "K85X" (at 5.08 -111.76 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MPN" "5747847-6" (at 5.08 -102.87 0)
+      (property "MPN" "K85X-CD-37S" (at 5.08 -104.14 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Manufacturer" "TE" (at 3.81 -100.33 0)
+      (property "Manufacturer" "Kycon" (at 3.81 -101.6 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "DPN" "A32130-ND" (at 5.08 -105.41 0)
+      (property "Digi-KeyPN" "2092-K85X-CD-37S-ND" (at 5.08 -106.68 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "5747847-6 db-37" (at 0 0 0)
+      (property "MouserPN" "806-K85X-CD-37S" (at 5.08 -114.3 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "db-37" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "37 Position D-Sub Receptacle, Female Sockets Connector" (at 0 0 0)
@@ -309,7 +312,7 @@
       (property "ki_fp_filters" "CONN_5747847-6_TYC" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "5747847-6_1_1"
+      (symbol "K85X-CD-37S_1_1"
         (rectangle (start 3.81 -91.313) (end 5.08 -91.567)
           (stroke (width 0.1524) (type default))
           (fill (type none))
@@ -611,11 +614,11 @@
           (number "9" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 0 -93.98 0) (length 3.81)
-          (name "SH" (effects (font (size 1.27 1.27))))
+          (name "SH" (effects (font (size 0 0))))
           (number "SH" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "5747847-6_1_2"
+      (symbol "K85X-CD-37S_1_2"
         (polyline
           (pts
             (xy 5.08 -93.98)
@@ -1538,37 +1541,52 @@
         )
       )
     )
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 6.35 0)
+    (symbol "Spacer_Wuerth:9774030360R" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "S" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
+      (property "Value" "9774030360R" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 0 0 0)
+      (property "Footprint" "Spacer_Wuerth:9774030360R" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "~" (at 0 0 0)
+      (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
+      (property "Manufacturer" "Wuerth" (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
+      (property "MPN" "9774030360R" (at 0 -7.62 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
+      (property "Digi-KeyPN" "732-5270-1-ND" (at 0 -12.7 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "MountingHole_Pad_0_1"
-        (circle (center 0 1.27) (radius 1.27)
-          (stroke (width 1.27) (type default))
+      (property "ki_keywords" "standoff" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "ROUND STANDOFF M3X0.5 STEEL 3MM" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "9774030360R_1_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
           (fill (type none))
         )
-      )
-      (symbol "MountingHole_Pad_1_1"
-        (pin input line (at 0 -2.54 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1713,17 +1731,8 @@
   (junction (at 219.71 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 8420d22e-4b5d-440d-8e09-3209a8b6689f)
   )
-  (junction (at 143.51 169.545) (diameter 0) (color 0 0 0 0)
-    (uuid bd2645e7-c888-4768-aabc-c710a77735b6)
-  )
   (junction (at 180.34 111.76) (diameter 0) (color 0 0 0 0)
     (uuid bd891776-87d3-4cd1-b72a-c584cd1b3ae8)
-  )
-  (junction (at 102.87 169.545) (diameter 0) (color 0 0 0 0)
-    (uuid cd55714e-48b7-48e9-8f1b-7c55d500a125)
-  )
-  (junction (at 123.19 169.545) (diameter 0) (color 0 0 0 0)
-    (uuid d8b7ea33-010f-4550-ae5e-91df1875b535)
   )
   (junction (at 219.71 151.13) (diameter 0) (color 0 0 0 0)
     (uuid dcb365b7-19ab-4fc6-903f-733aa499ca0e)
@@ -1819,7 +1828,7 @@
     (stroke (width 0) (type default))
     (uuid 2e865f7f-ea1b-46e3-8dab-759e6fd44fbc)
   )
-  (wire (pts (xy 143.51 169.545) (xy 151.765 169.545))
+  (wire (pts (xy 116.205 168.91) (xy 124.46 168.91))
     (stroke (width 0) (type default))
     (uuid 3491befb-5290-4b61-84a1-7c95022fd515)
   )
@@ -1893,10 +1902,6 @@
   (wire (pts (xy 246.38 73.66) (xy 222.25 73.66))
     (stroke (width 0) (type default))
     (uuid 68a0cfaf-c4fb-4775-8216-b70e2a8790b2)
-  )
-  (wire (pts (xy 82.55 169.545) (xy 102.87 169.545))
-    (stroke (width 0) (type default))
-    (uuid 69933ca4-2020-4dce-8f8a-ed6320a4ad1c)
   )
   (wire (pts (xy 219.71 53.34) (xy 246.38 53.34))
     (stroke (width 0) (type default))
@@ -2006,10 +2011,6 @@
     (stroke (width 0) (type default))
     (uuid b3f08c72-f00c-4634-99bc-45026b90e641)
   )
-  (wire (pts (xy 123.19 169.545) (xy 102.87 169.545))
-    (stroke (width 0) (type default))
-    (uuid be98def9-da54-404c-8818-52d9257d8412)
-  )
   (wire (pts (xy 219.71 144.78) (xy 219.71 151.13))
     (stroke (width 0) (type default))
     (uuid c561ba2e-6159-40db-ad42-42d51d23a885)
@@ -2041,10 +2042,6 @@
   (wire (pts (xy 246.38 83.82) (xy 222.25 83.82))
     (stroke (width 0) (type default))
     (uuid e21d43ba-f2c7-4a97-acd8-e67da9347b73)
-  )
-  (wire (pts (xy 143.51 169.545) (xy 123.19 169.545))
-    (stroke (width 0) (type default))
-    (uuid e4fa2c64-1542-4bb0-a4b6-03f7ea82437e)
   )
   (wire (pts (xy 154.94 111.76) (xy 180.34 111.76))
     (stroke (width 0) (type default))
@@ -2417,9 +2414,43 @@
     )
     (pin "1" (uuid 760daff3-b9fc-401f-ba64-f3a71fdaf859))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#FLG02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Spacer_Wuerth:9774030360R") (at 111.125 168.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1797bc3c-8cad-4082-8dc2-8c5f141de512)
+    (property "Reference" "S1" (at 117.475 163.195 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "9774030360R" (at 117.475 165.735 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Spacer_Wuerth:9774030360R" (at 111.125 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 111.125 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Wuerth" (at 111.125 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "9774030360R" (at 111.125 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-KeyPN" "732-5270-1-ND" (at 111.125 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5e45f408-a07a-42c6-a444-9c580d985763))
+    (instances
+      (project "db37kx"
+        (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
+          (reference "S1") (unit 1)
         )
       )
     )
@@ -2455,7 +2486,7 @@
     (pin "2" (uuid 1c9e124b-2632-482d-ab55-7df54570df84))
     (pin "3" (uuid bd2bfc33-cef5-4127-953a-b6cc227fd575))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "J3") (unit 1)
         )
@@ -2493,7 +2524,7 @@
     (pin "2" (uuid 66243f95-ebc5-4ed5-b930-83a13fc97849))
     (pin "3" (uuid 1a273faf-fdd8-4c30-afc6-47288f74c584))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "J7") (unit 1)
         )
@@ -2518,7 +2549,7 @@
     )
     (pin "1" (uuid 1df33fe4-6faf-40f9-b373-ade1f98aa7e1))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#FLG01") (unit 1)
         )
@@ -2543,7 +2574,7 @@
     )
     (pin "1" (uuid 2921978c-5da2-402c-97ed-c52479f1e4da))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#PWR02") (unit 1)
         )
@@ -2568,7 +2599,7 @@
     )
     (pin "1" (uuid fd672c8c-7f4a-4336-a5e9-6d0aa396b9ca))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#PWR09") (unit 1)
         )
@@ -2576,24 +2607,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 151.765 169.545 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 124.46 168.91 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bfd3888-4b31-4811-924c-a73abee31ff0)
-    (property "Reference" "#PWR06" (at 151.765 175.895 0)
+    (property "Reference" "#PWR06" (at 124.46 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 151.765 173.355 0)
+    (property "Value" "GND" (at 124.46 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.765 169.545 0)
+    (property "Footprint" "" (at 124.46 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 151.765 169.545 0)
+    (property "Datasheet" "" (at 124.46 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid db91b942-8a50-4996-96c4-424ea330ee17))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#PWR06") (unit 1)
         )
@@ -2618,7 +2649,7 @@
     )
     (pin "1" (uuid 6e732860-c055-471e-817d-1f40f65f3201))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#PWR04") (unit 1)
         )
@@ -2643,7 +2674,7 @@
     )
     (pin "1" (uuid 26a6ecda-3ae0-4b52-932c-dbb5df74ca89))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#PWR05") (unit 1)
         )
@@ -2668,34 +2699,9 @@
     )
     (pin "1" (uuid bd67f5e6-6c0d-4732-8638-d319fa9c4a23))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 123.19 167.005 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6e8178f6-1e48-4cd2-b111-c3526b944fa3)
-    (property "Reference" "H3" (at 125.73 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 123.19 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" (at 123.19 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 123.19 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d660161a-84fe-4357-b5aa-35f89c8c1596))
-    (instances
-      (project "microhamkx3"
-        (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
-          (reference "H3") (unit 1)
         )
       )
     )
@@ -2728,7 +2734,7 @@
     (pin "1" (uuid 5b4f8803-ae93-4ec7-97d7-73e219a779a1))
     (pin "2" (uuid 3197d10b-b5c9-42e2-87e5-72182a0187e1))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "J1") (unit 1)
         )
@@ -2753,34 +2759,9 @@
     )
     (pin "1" (uuid 95b00ed4-60d9-425c-86b0-b60eb24e2738))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 102.87 167.005 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8c2c1af3-56d3-4935-b8fa-dd03a3a2d235)
-    (property "Reference" "H2" (at 105.41 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 102.87 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" (at 102.87 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 102.87 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 272f269c-c804-475f-bbaf-2eb19152fc80))
-    (instances
-      (project "microhamkx3"
-        (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
-          (reference "H2") (unit 1)
         )
       )
     )
@@ -2803,34 +2784,9 @@
     )
     (pin "1" (uuid 69713307-f06d-480d-b038-0ad17fff88e3))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#PWR08") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 143.51 167.005 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a523e592-0dcd-492a-bf6b-5f5b6cd45822)
-    (property "Reference" "H4" (at 146.05 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 143.51 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" (at 143.51 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 143.51 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5f724c3e-cb76-4f41-97fb-dc36d9eecd7b))
-    (instances
-      (project "microhamkx3"
-        (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
-          (reference "H4") (unit 1)
         )
       )
     )
@@ -2866,7 +2822,7 @@
     (pin "2" (uuid 761fafcc-b5b2-44a9-bb4c-f7083b8d2cff))
     (pin "3" (uuid ddcf831e-72c2-4f32-a0fa-e1365f3cb564))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "J2") (unit 1)
         )
@@ -2905,7 +2861,7 @@
     (pin "3" (uuid 18662acf-f857-4996-994b-6cf2785ccfa7))
     (pin "4" (uuid f3ebb155-7abc-4cae-8729-74548cfda08c))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "J4") (unit 1)
         )
@@ -2913,28 +2869,31 @@
     )
   )
 
-  (symbol (lib_id "Connector_Dsub_TE:5747847-6") (at 246.38 50.8 0) (unit 1)
+  (symbol (lib_id "Connector_Dsub_Kycon:K85X-CD-37S") (at 246.38 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db5f5fb4-20b7-4629-aca9-72cc53fd11e8)
     (property "Reference" "J8" (at 254 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5747847-6" (at 254 99.695 0)
+    (property "Value" "K85X-CD-37S" (at 254 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Dsub_TE:CONN_5747847-6_TYC" (at 251.46 158.75 0)
+    (property "Footprint" "Connector_Dsub_Kycon:K85X-CD-37S" (at 251.46 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "5747847-6" (at 251.46 161.29 0)
+    (property "Datasheet" "K85X" (at 251.46 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "5747847-6" (at 251.46 153.67 0)
+    (property "MPN" "K85X-CD-37S" (at 251.46 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "TE" (at 250.19 151.13 0)
+    (property "Manufacturer" "Kycon" (at 250.19 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DPN" "A32130-ND" (at 251.46 156.21 0)
+    (property "Digi-KeyPN" "2092-K85X-CD-37S-ND" (at 251.46 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MouserPN" "806-K85X-CD-37S" (at 251.46 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a83969ca-f5af-4ace-89c9-a8d08aa24165))
@@ -2976,7 +2935,7 @@
     (pin "9" (uuid f7b1fcd1-46ee-4249-a46d-2d9689535e06))
     (pin "SH" (uuid f1e4bcca-4454-407f-a8b8-69e6d8fb3711))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "J8") (unit 1)
         )
@@ -3014,7 +2973,7 @@
     (pin "2" (uuid 6e4b813d-119d-4dd4-93d1-09548668e316))
     (pin "3" (uuid 7b9529f1-7a6f-4df1-a52b-f23561b4857e))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "J6") (unit 1)
         )
@@ -3039,34 +2998,9 @@
     )
     (pin "1" (uuid b1cab68f-94e4-4875-961e-748dfc5bfd3c))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 82.55 167.005 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f1a5e3b2-6853-40ea-8838-87c0e676c65a)
-    (property "Reference" "H1" (at 85.09 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 82.55 162.56 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" (at 82.55 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 82.55 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0b891a33-3f3c-4be2-b0ff-a412aebba427))
-    (instances
-      (project "microhamkx3"
-        (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
-          (reference "H1") (unit 1)
         )
       )
     )
@@ -3102,7 +3036,7 @@
     (pin "2" (uuid 17d734aa-5da8-4e1b-9101-0f61d061f728))
     (pin "3" (uuid 8cd0c560-255b-4084-8e72-dae41a5bf7dc))
     (instances
-      (project "microhamkx3"
+      (project "db37kx"
         (path "/4d621f00-fbb0-480b-abdd-8f66fbfa37d7"
           (reference "J5") (unit 1)
         )
